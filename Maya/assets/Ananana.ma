@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Ananana.ma
-//Last modified: Wed, Feb 13, 2019 04:25:20 PM
+//Last modified: Thu, Feb 14, 2019 09:33:46 AM
 //Codeset: UTF-8
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,15 +13,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C25E416B-49D8-11C1-48FF-298997385291";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.2678683074332584 0.61282745442814146 4.4929634440482147 ;
-	setAttr ".r" -type "double3" -21.338352710468168 -3619.3999999998273 4.2150104414116359e-16 ;
+	setAttr ".t" -type "double3" 0.85001616969594018 0.69763596070760103 5.7030825431174801 ;
+	setAttr ".r" -type "double3" -12.338352710459874 -3590.1999999996497 0 ;
 	setAttr ".rp" -type "double3" 0 2.7755575615628914e-16 2.7755575615628914e-17 ;
 	setAttr ".rpt" -type "double3" 5.6945604720456115e-17 -4.0973037368061903e-18 5.3138697163076194e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "430FDDDA-425A-5AC0-854B-38BBCB7ED597";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 4.4650712138965662;
+	setAttr ".coi" 5.4143684715525469;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
